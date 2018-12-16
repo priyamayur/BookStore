@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:id="@+id/name_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorText1"
+        android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:id="@+id/sale_button"
+            android:layout_width="@dimen/width3"
+            android:layout_height="@dimen/width2"
+            android:text="@string/sold"
+            android:background="@color/colorAccent"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_margin="@dimen/width1"
+       >
+    <TextView
+        android:id="@+id/price_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/colorText2"  />
+       <TextView
+           android:id="@+id/quantity_main"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:fontFamily="sans-serif"
+           android:textAppearance="?android:textAppearanceSmall"
+           android:layout_alignParentRight="true"
+           android:textColor="@color/colorText2"  />
+
+
+
+   </RelativeLayout>
+</LinearLayout>

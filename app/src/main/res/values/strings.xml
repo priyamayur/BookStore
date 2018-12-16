@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">BookStore</string>
+    <string name="prod_id">Product ID</string>
+    <string name="prod_name">Product Name</string>
+    <string name="prod_name_hint">Eg. Alchemist</string>
+    <string name="price">Price</string>
+    <string name="price_hint">150     (In Rupees)</string>
+    <string name="quantity">Quantity</string>
+    <string name="quantity_hint">Eg. 20</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_name_hint">Eg. Ankit Poddar</string>
+    <string name="supplier_phone">Supplier phone number</string>
+    <string name="supplier_phone_hint">Eg. 9163924211</string>
+    <string name="order">ORDER</string>
+
+    <string name="book_table">The Books table contains </string>
+    <string name="books"> books \n\n</string>
+
+    <string name="insert">Insert</string>
+    <string name="delete">Delete</string>
+
+    <string name="action_save">Insert</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="editor_insert_book_failed">editor_insert_book_failed</string>
+    <string name="editor_insert_book_successful">editor_insert_book_successful</string>
+
+    <string name="unknown_price">unknown price</string>
+    <string name="editor_activity_title_new_book">Add book</string>
+    <string name="editor_activity_title_edit_book">Edit Book</string>
+
+    <string name="editor_update_book_failed">editor_update_book_failed</string>
+    <string name="editor_update_book_successful">editor_update_book_successful</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this pet?</string>
+
+    <string name="editor_delete_pet_successful">Pet deleted</string>
+
+    <!-- Toast message in editor when current pet has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_pet_failed">Error with deleting pet</string>
+
+
+    <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <string name="decrement_error">Invalid Quantity</string>
+    <string name="phone_error">Please enter a phone number</string>
+    <string name="sold">sold</string>
+    <string name="sold_item">1 item sold</string>
+    <string name="sold_error">Out of Stock</string>
+    <string name="empty_screen">Click on the button below to add books to the store \n\n Please make sure to enter the Product Name(Book Name), Price, Quantity, Supllier Name, Supplier Phone Number \n\n You can edit/update the details by clicking on each entry</string>
+    <string name="blank_fields">Please complete all fields to proceed</string>
+
+
+
+</resources>
